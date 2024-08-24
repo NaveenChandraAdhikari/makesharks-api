@@ -26,7 +26,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 To query suppliers, use the following curl command:
 
-
+```
 curl -X POST http://localhost:9090/api/supplier/query \
 -H "Content-Type: application/json" \
 -d '{
@@ -37,6 +37,7 @@ curl -X POST http://localhost:9090/api/supplier/query \
  "size": 20
 }'
 This will return a JSON response with a list of suppliers matching the given criteria, along with pagination information.
+```
 
 
 
